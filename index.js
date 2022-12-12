@@ -1,7 +1,7 @@
 const { google } = require("googleapis");
 const sheets = google.sheets({
   version: "v4",
-  auth: "AIzaSyDMBnDkwZo0o8a7n1j5zFFaxJjIqyl9gZQ",
+  auth: "API_KEY",
 });
 
 function listMajors(auth) {
